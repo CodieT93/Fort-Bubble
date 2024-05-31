@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --coreGreen: #DBF22E;
+    --corelightgreen: #E2F26B;
+    --coreLightBlue: #2ABFB0;
+    --coreDarkBlue: #0A1126;
+    --coreWhite: #F2F2F2;
+}
+
+/* Color Theme Swatches in Hex */
+.Shurrly-App.-UX/UI-design.-Mobile-app-1-hex { color: #0A1126; }
+.Shurrly-App.-UX/UI-design.-Mobile-app-2-hex { color: #2ABFB0; }
+.Shurrly-App.-UX/UI-design.-Mobile-app-3-hex { color: #DBF22E; }
+.Shurrly-App.-UX/UI-design.-Mobile-app-4-hex { color: #E2F26B; }
+.Shurrly-App.-UX/UI-design.-Mobile-app-5-hex { color: #F2F2F2; }
+
+/* Button Outline Colors */
+.btn-outline {
+    background-color: var(--coreGreen);
+    color: var(--coreDarkBlue);
+    border-color: var(--coreGreen);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--coreLightBlue);
+    color: var(--coreDarkBlue);
+    border-color: var(--coreLightBlue);
+    transform: scale(1.05);
+}
+
+/* Heading Colors */
+.textgreen {
+    color: var(--coreGreen);
+}
+
+.textwhite {
+    color: var(--coreWhite);
+}
+
+.textwhite:hover {
+    color: var(--coreGreen);
+}
+
+.textblue {
+    color: #0A1126;
+}
+
+/* Background Colors */
+.bg-darkblue {
+    background-color: var(--coreDarkBlue);
+}
+
+.bg-lightgreen {
+    background-color: var(--corelightgreen);
+}
+
+.bg-lightblue {
+    background-color: var(--coreLightBlue);
+}
+
+/* Header Section */
+.background-container {
+    background-image: url(Assets/Images/Background/hero-background-blue.svg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    color: white; /* Ensure text is readable over the image */
+    text-align: center;
+}
+
+.security {
+    background-image: url(/Assets/Images/Other/security.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jellyfish {
+    background-image: url(/Assets/Images/Other/jellyfish.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team {
+    background-image: url(/Assets/Images/Other/team.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digitalblob {
+    background-image: url(/Assets/Images/Other/digital\ blob.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.embed-responsive {
+    min-height: 450px; /* Set your desired min height here */
+}
+
+/* Navbar Styles */
+
+.navbold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    color: #F2F2F2;
+}
+
+.navbold:hover {
+    color: #DBF22E;
+}
+
+.navbold-fortbubble {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 35px;
+    color: #F2F2F2;
+}
+
+.navbold-fortbubble:hover {
+    color: var(--coreWhite);
+}
+
+.member {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.member:hover {
+    transform: scale(1.2);
+}
+
+.dropdown-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.dropdown-item:hover {
+    color: #DBF22E;
+}
+
+.navbar-nav .nav-link {
+    color: var(--coreWhite);
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: var(--coreGreen);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--coreGreen);
+}
+
+.navbar-nav .nav-link.active:hover,
+.navbar-nav .nav-link.show:hover,
+.navbar-nav .nav-link.active:focus,
+.navbar-nav .nav-link.show:focus {
+    color: var(--coreGreen);
+}
+
+.navbar-toggler {
+    border-color: var(--coreWhite);
+    border-width: 2px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28242, 242, 242, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Show the dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Ensure the dropdown toggle looks like a link, not a button */
+.nav-item.dropdown .nav-link {
+    cursor: pointer;
+}
+
+/* Optional: Add a small delay for smoother dropdown experience */
+.nav-item.dropdown .dropdown-menu {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    transition: all 0.3s ease;
+}
