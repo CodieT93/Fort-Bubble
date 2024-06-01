@@ -76,7 +76,7 @@
 }
 
 .security {
-    background-image: url(/Assets/Images/Other/security.jpg);
+    background-image: url(Assets/Images/Other/security.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@
 }
 
 .jellyfish {
-    background-image: url(/Assets/Images/Other/jellyfish.jpg);
+    background-image: url(Assets/Images/Other/jellyfish.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@
 }
 
 .team {
-    background-image: url(/Assets/Images/Other/team.jpg);
+    background-image: url(Assets/Images/Other/team.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@
 }
 
 .digitalblob {
-    background-image: url(/Assets/Images/Other/digital\ blob.jpg);
+    background-image: url(Assets/Images/Other/digital\ blob.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
