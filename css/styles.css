@@ -76,7 +76,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
 
 /* Header Section */
 .background-container {
-    background-image: url(Assets/Images/Background/hero-background-blue.svg);
+    background-image: url();
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
 }
 
 .jellyfish {
-    background-image: url(/Assets/Images/Other/jellyfish.jpg);
+    background-image: url(/assets/images/other/jellyfish.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
 }
 
 .team {
-    background-image: url(/Assets/Images/Other/team.jpg);
+    background-image: url(/assets/images/other/team.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -122,7 +122,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
 }
 
 .digitalblob {
-    background-image: url(/Assets/Images/Other/digital\ blob.jpg);
+    background-image: url(/assets/images/other/digital_blob.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
