@@ -89,7 +89,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
 }
 
 .security {
-    background-image: url(/Assets/Images/Other/security.jpg);
+    background-image: url(/assets/images/other/security.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
