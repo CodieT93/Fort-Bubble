@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --corePrimary: #e1ff2b;
+    --coreSecondary: #3ba11b;
+    --coreGrey: #a9a9a9;
+    --coreLightGrey: #efefef;
+    --coreWhite: #fafafa;
+    --coreDark: #000000;
+}
+
+/* Button Outline Colors */
+
+.rounded-pill{
+    background-color: var(--corePrimary);
+    font-weight: 500;
+    color: var(--coreDark);
+    border-color: var(--corePrimary);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--coreSecondary);
+    font-weight: bold;
+    color: var(--coreWhite);
+    border-color: var(--coreSecondary);
+    transform: scale(1.05);
+}
+
+.shadow1 {
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+}
+
+/* Heading Colors */
+.textprimary {
+    color: var(--corePrimary);
+}
+
+.textlight {
+    color: var(--coreWhite);
+}
+
+.textlight:hover {
+    color: var(--corePrimary);
+}
+
+.textdark {
+    color:var(--coreDark);
+}
+
+.textsecondary {
+    color: var(--coreSecondary);
+}
+
+/* Background Colors */
+.bgdark {
+    background-color: var(--coreDark);
+}
+
+.bglight {
+    background-color: var(--coreWhite);
+}
+
+.bgprimary {
+    background-color: var(--corePrimary);
+}
+
+.bgsecondary {
+    background-color: var(--coreSecondary);
+}
+
+.bggrey {
+    background-color: var(--coreGrey);
+}
+
+/* Header Section */
+.background-container {
+    background-image: url(Assets/Images/Background/hero-background-blue.svg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    color: white; /* Ensure text is readable over the image */
+    text-align: center;
+}
+
+.security {
+    background-image: url(/Assets/Images/Other/security.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jellyfish {
+    background-image: url(/Assets/Images/Other/jellyfish.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team {
+    background-image: url(/Assets/Images/Other/team.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digitalblob {
+    background-image: url(/Assets/Images/Other/digital\ blob.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.embed-responsive {
+    min-height: 450px; /* Set your desired min height here */
+}
+
+/* Navbar Styles */
+
+.navbold-fortbubble {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    color:var(--coreDark);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbold-fortbubble:hover {
+    transform: scale(1.05);
+}
+
+.navbar-links {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: var(--coreDark);
+}
+
+.nav-link-current {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 20px;
+    color:var(--coreSecondary);
+}
+
+.member {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.member:hover {
+    transform: scale(1.2);
+}
