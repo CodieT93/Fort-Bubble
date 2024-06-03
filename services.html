@@ -14,61 +14,77 @@
 <body class="bg-white">
 
     <!-- Navbar -->
-    <header class="p-2">
+    <nav class="navbar navbar-expand-md" aria-label="Navbar">
         <div class="container-fluid">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a class="navbar-brand navbold-fortbubble" href="index.html">fort bubble</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <a class="navbar-brand navbold-fortbubble" href="index.html">fort bubble</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
     
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="index.html" class="nav-link navbar-links px-2 text-dark">Home</a></li>
-                    <li><a href="our work.html" class="nav-link navbar-links px-2 text-dark">Our Work</a></li>
-                    <li><a href="services.html" class="nav-link nav-link-current px-2">Services</a></li>
-                    <li><a href="contact.html" class="nav-link navbar-links px-2 text-dark">Contact</a></li>
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item navbar-links">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-links" href="our work.html">Our Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-links disabled" aria-disabled="true">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link navbar-links dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item navbar-links" href="services.html">Website Development</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">IT Services</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">Cloud Hosting</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">Project Management</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">Cyber Security</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">AI Integration</a></li>
+                        </ul>
+                    </li>
                 </ul>
+                <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                    <a href="contact.html" class="btn rounded-pill navbar-links">Contact Us</a>
+                </div>
             </div>
         </div>
-    </header>
+    </nav>
     
-    <!--|| Web Security Banner ||-->
-
-    <div class="container-fluid security">
-        <h1 class="textprimary text-center">Secure Your Digital World: Comprehensive Web Security Services Tailored for You</h1>
+    <!--|| Design Team Banner ||-->
+    <div class="container-fluid designteam">
+        <h1 class="headline">Your Vision, Our Code: Expert Web Development Solutions</h1>
     </div>
-
-<!--|| Photography Section ||-->
-
-      <div class="container col-lg-12 px-4 py-5 textdark">
-        <div class="row flex-lg-row-reverse align-item-center g-5 py-5">
-            <div class="col-lg-4">
-                <img src="assets/images/other/photography.jpg" class="d-block mx-lg-auto img-fluid rounded-3 shadow-lg" alt="Man taking a Photo at a concert" width="400" height="300" loading="lazy">
-            </div>
-            <div class="col-lg-8">
-                <h1 class="mb-4">Capture Your Brand’s Essence with Professional <b class="textsecondary">In-House Photography</b></h1>
-                <p class="lead">In the digital age, first impressions are everything. High-quality visuals are key to engaging your audience and showcasing your products 
-                    or services in the best light. At <strong>Fort Bubble</strong>, we offer professional in-house photography 
-                    services tailored to elevate your brand’s online presence.</p>
-                <p class="lead"><strong>Choose Our In-House Photography?</strong><br> 
-                    <br><strong>Visuals:</strong> We craft stunning, custom images that reflect your brand’s unique identity and values.<br>
-                    <br><strong>Consistency and Quality:</strong> Our expert photographers ensure a cohesive look across all your digital platforms, maintaining the highest standards of quality.<br>
-                    <br><strong>Engage and Convert:</strong> Beautiful, high-resolution images captivate visitors, increasing engagement and driving conversions.
-                    Fast Turnaround: Being in-house means we can quickly adapt and deliver high-quality visuals to meet your evolving needs.</p>
+    
+    <!--|| Web Development Section ||-->
+    <div class="container col-lg-12 px-4 py-5 textdark">
+        <div class="align-item-center g-5 py-5">
+            <div class="col-lg-12">
+                <h1 class="mb-4">Make Your Website <b class="pop"> POP!</b> with Fort Bubble!</h1>
+                <p class="lead">Are you ready to take your business to the next level? At <strong>Fort Bubble</strong>, we specialize in crafting bespoke websites that not only look stunning but also drive results. 
+                    Whether you're a small startup or an established business, our expert web development services are designed to make your online presence truly pop.</p>
+                <p class="lead"><strong>Why Choose Us?</strong><br> 
+                    <br><strong>Custom Designs:</strong> We believe that your website should be a true reflection of your brand. Our custom design services ensure that your online presence is unique and tailored to your specific needs and vision.<br>
+                    <br><strong>Responsive Layouts:</strong> Our expert photographers ensure a cohesive look across all your digital platforms, maintaining the highest standards of quality.<br>
+                    <br><strong>SEO Optimized:</strong> Get found by your target audience effortlessly.<br>
+                    <br><strong>Fast Turnaround:</strong> Efficient and timely project delivery.<br>
+                    <br><strong>Ongoing Support:</strong> We're here for you, every step of the way.</p>
+                <p class="lead m-5"><strong>Full Website Development | E-commerce Solutions | Website Redesigns | CMS Integration | Website Maintenance</strong></p>
+                <h2 class="text-center pb-2 textsecondary pop">Ready to elevate your online presence?</h2>
+                <h2 class="text-center pb-5">Contact Fort Bubble today and let's bring your vision to life!</h2>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn rounded-pill px-4">Learn More</button>
+                    <a href="contact.html" class="btn rounded-pill px-4">Learn More</a>
                 </div>
             </div>
         </div>
     </div>
-
-<!--|| Influencer Training ||-->
-
+    
+    <!--|| SEO Training ||-->
     <section class="container-fluid">
         <div class="row">
             <div class="col-lg-6 team"></div>
             <div class="col-lg-6 p-5 text-white bgdark">
-                <h1 class="mb-3">Who is our professional training best-suited to?</h1>
+                <h1 class="mb-3">Who are our Search Engine Optimisation programs best-suited to?</h1>
                 <h5 class="textprimary">Marketing Professionals</h5>
                     <p class="lead">You may or may not be running some form of Influencer activity, 
                         but you want to up your game and learn how to develop a strategic framework to plan, 
@@ -95,7 +111,6 @@
                     helping your brand stand out and tell its unique story. 
                     Transform your website into an immersive and dynamic experience today.</p>
                 <p class="lead">Contact us now to learn more and get started!</p>
-                <a href="services.html" class="btn rounded-pill">Learn More</a>
             </div>
             <div class="container col-lg-6 embed-responsive embed-responsive-16by9">
                 <iframe class="rounded-3 shadow1 embed-responsive-item" width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/6H7kkgvieLo?si=Ude9DZInIoRWcm2Uautoplay=1&mute=1&loop=1" title="YouTube video player" 

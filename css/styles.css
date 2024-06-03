@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face { font-family: Bubble1; src: url('/assets/font/BubbleBoba-YzlZj.ttf'); }
+@font-face { font-family: Bubble2; src: url('/assets/font/BubbleBobble-rg3rx.ttf'); }
 
 :root {
     --corePrimary: #e1ff2b;
@@ -33,6 +35,11 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
 }
 
 /* Heading Colors */
+.headline {
+    color: var(--coreWhite);
+    font-weight: bold;
+    font-size: xxx-large;
+}
 .textprimary {
     color: var(--corePrimary);
 }
@@ -74,11 +81,19 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
     background-color: var(--coreGrey);
 }
 
+.pop {
+    color: rgb(250, 69, 100);
+    font-family: bubble2;
+    font-weight: 100;
+    font-size: 60px;
+
+}
+
 /* Header Section */
 .background-container {
-    background-image: url();
+    background-image: url(/assets/images/background/sqaures.png);
     background-size: cover;
-    background-position:center;
+    background-position:top;
     background-repeat: no-repeat;
     min-height: 100vh; /* Full viewport height */
     display: flex;
@@ -88,8 +103,8 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
     text-align: center;
 }
 
-.security {
-    background-image: url(/assets/images/other/security.jpg);
+.designteam {
+    background-image: url(/assets/images/other/design_team.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -121,6 +136,28 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
     justify-content: center;
 }
 
+.marketing {
+    background-image: url(/assets/images/other/marketing.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer {
+    background-image: url(/assets/images/other/computer_screen.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .digitalblob {
     background-image: url(/assets/images/other/digital_blob.jpg);
     background-size: cover;
@@ -132,8 +169,17 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
     justify-content: center;
 }
 
-.embed-responsive {
-    min-height: 450px; /* Set your desired min height here */
+.circle-container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--coreDark);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 
 /* Navbar Styles */
@@ -167,7 +213,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
     color:var(--coreSecondary);
 }
 
-.member {
+.memberafgri {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -177,6 +223,82 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
     transition: transform 0.3s ease-in-out;
 }
 
-.member:hover {
+.memberafgri:hover {
     transform: scale(1.2);
+    background-image: url(/assets/images/other/afgri_background.PNG);
+}
+
+.memberaswa {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.memberaswa:hover {
+    transform: scale(1.2);
+    background-image: url(/assets/images/other/aswa_background.PNG);
+}
+
+.memberkc {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.memberkc:hover {
+    transform: scale(1.2);
+    background-image: url(/assets/images/other/kitchencapital_background.PNG);
+}
+
+.memberlw {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.memberlw:hover {
+    transform: scale(1.2);
+    background-image: url(/assets/images/other/lifestyle_background.PNG);
+}
+
+.memberl123 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.memberl123:hover {
+    transform: scale(1.2);
+    background-image: url(/assets/images/other/loans123_background.PNG);
+}
+
+.membermm {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.membermm:hover {
+    transform: scale(1.2);
+    background-image: url(/assets/images/other/mm_background.PNG);
 }

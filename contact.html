@@ -14,23 +14,42 @@
 <body class="bg-white">
 
     <!-- Navbar -->
-    <header class="p-2">
+    <nav class="navbar navbar-expand-md" aria-label="Navbar">
         <div class="container-fluid">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a class="navbar-brand navbold-fortbubble" href="index.html">fort bubble</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <a class="navbar-brand navbold-fortbubble" href="index.html">fort bubble</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
     
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="index.html" class="nav-link navbar-links px-2 text-dark">Home</a></li>
-                    <li><a href="our work.html" class="nav-link navbar-links px-2 text-dark">Our Work</a></li>
-                    <li><a href="services.html" class="nav-link navbar-links px-2 text-dark">Services</a></li>
-                    <li><a href="contact.html" class="nav-link nav-link-current px-2 ">Contact</a></li>
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item navbar-links">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-links" href="our work.html">Our Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-links disabled" aria-disabled="true">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link navbar-links dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item navbar-links" href="services.html">Website Development</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">IT Services</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">Cloud Hosting</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">Project Management</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">Cyber Security</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">AI Integration</a></li>
+                        </ul>
+                    </li>
                 </ul>
+                <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                    <a href="contact.html" class="btn rounded-pill navbar-links">Contact Us</a>
+                </div>
             </div>
         </div>
-    </header>
+    </nav>
 
     <!--|| Contact Us ||-->
 

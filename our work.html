@@ -14,22 +14,62 @@
 <body class="bg-white">
 
     <!-- Navbar -->
-    <header class="p-2">
+    <nav class="navbar navbar-expand-md" aria-label="Navbar">
         <div class="container-fluid">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a class="navbar-brand navbold-fortbubble" href="index.html">fort bubble</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <a class="navbar-brand navbold-fortbubble" href="index.html">fort bubble</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
     
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="index.html" class="nav-link navbar-links px-2 text-dark">Home</a></li>
-                    <li><a href="our work.html" class="nav-link nav-link-current px-2">Our Work</a></li>
-                    <li><a href="services.html" class="nav-link navbar-links px-2 text-dark">Services</a></li>
-                    <li><a href="contact.html" class="nav-link navbar-links px-2 text-dark">Contact</a></li>
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item navbar-links">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-links" href="our work.html">Our Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-links disabled" aria-disabled="true">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link navbar-links dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item navbar-links" href="services.html">Website Development</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">IT Services</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">Cloud Hosting</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">Project Management</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">Cyber Security</a></li>
+                            <li><a class="dropdown-item navbar-links disabled" aria-disabled="true" href="#">AI Integration</a></li>
+                        </ul>
+                    </li>
                 </ul>
+                <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                    <a href="contact.html" class="btn rounded-pill navbar-links">Contact Us</a>
+                </div>
+            </div>
         </div>
-    </header>
+    </nav>
+
+    <section class="container my-5 py-5">
+        <div class="row textdark">
+            <div class="container col-lg-6 p-5">
+                <h5>"Exceptional Redesign Experience"</h5>
+                <h1 class="textsecondary"><strong>Adam Worthy</strong> - maker.io</h1>
+                <p class="lead">Working with Fort Bubble on my website redesign was fantastic. They were professional, responsive, 
+                    and attentive to all my needs. They took the time to understand my vision, resulting in a custom design that perfectly reflects my brand.
+                    <br>The new site is visually stunning, highly functional, and user-friendly across all devices. 
+                    Their SEO expertise has already started driving more traffic to my business.
+                    Fort Bubble handled everything, from design and development to SEO and responsive layout. 
+                    <br>Communication was excellent, with regular updates and prompt feedback. 
+                    I highly recommend Fort Bubble for anyone looking to enhance their online presence with comprehensive web solutions. 
+                    <br>Thank you for helping my business grow!</p>
+            </div>
+            <div class="container col-lg-6">
+                <img class="circle-container" src="/assets/images/other/man_smiling.jpg" alt="">
+            </div>
+        </div>
+    </section>
 
     <!--|| Our Clients Section ||-->
 
@@ -43,32 +83,32 @@
                 <div class="row">
                     <!-- Client 1 -->
                     <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
-                        <img src="assets/images/other/PWD Logo File/afgri.webp" alt="afgri logo" class="member bgsecondary" href="/our work.html">
+                        <img src="assets/images/other/PWD Logo File/afgri.webp" alt="afgri logo" class="memberafgri bgsecondary" href="/our work.html">
                         <p class="mt-2 mx-2 text-center"><strong>AFGRI Equipment</strong><br>Heavy Machinery</p>
                     </div>
                     <!-- Client 2 -->
                     <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
-                        <img src="assets/images/other/PWD Logo File/allsealed.webp" alt="all sealed logo" class="member bgsecondary">
+                        <img src="assets/images/other/PWD Logo File/allsealed.webp" alt="all sealed logo" class="memberaswa bgsecondary">
                         <p class="mt-2 mx-2 text-center"><strong>All Sealed WA</strong><br>Waterproofing</p>
                     </div>
                     <!-- Client 3 -->
                     <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
-                        <img src="assets/images/other/PWD Logo File/kitchencapital.webp" alt="kitchen capital logo" class="member bgsecondary">
+                        <img src="assets/images/other/PWD Logo File/kitchencapital.webp" alt="kitchen capital logo" class="memberkc bgsecondary">
                         <p class="mt-2 mx-2 text-center"><strong>Kitchen Capital</strong><br>Kitchen Installation</p>
                     </div>
                     <!-- Client 4 -->
                     <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
-                        <img src="assets/images/other/PWD Logo File/lifestyle.webp" alt="lifestyle wardrobes logo" class="member bgsecondary">
+                        <img src="assets/images/other/PWD Logo File/lifestyle.webp" alt="lifestyle wardrobes logo" class="memberlw bgsecondary">
                         <p class="mt-2 mx-2 text-center"><strong>Lifestyle Wardrobes</strong><br>Cabinetry</p>
                     </div>
                     <!-- Client 5 -->
                     <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
-                        <img src="assets/images/other/PWD Logo File/loans123.webp" alt="loans123 logo" class="member bgsecondary">
+                        <img src="assets/images/other/PWD Logo File/loans123.webp" alt="loans123 logo" class="memberl123 bgsecondary">
                         <p class="mt-2 mx-2 text-center"><strong>Loans123</strong><br>Finance</p>
                     </div>
                     <!-- Client 6 -->
                     <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
-                        <img src="assets/images/other/PWD Logo File/mmates.webp" alt="mortgage mates logo" class="member bgsecondary">
+                        <img src="assets/images/other/PWD Logo File/mmates.webp" alt="mortgage mates logo" class="membermm bgsecondary">
                         <p class="mt-2 mx-2 text-center"><strong>Mortgage Mates</strong><br>Brokers</p>
                     </div>
                 </div>
