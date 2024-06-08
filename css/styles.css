@@ -22,7 +22,7 @@
     font-weight: 500;
     color: var(--coreDark);
     border-color: var(--corePrimary);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -35,7 +35,11 @@
 }
 
 .shadow1 {
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: montserratbold;
 }
 
 /* Heading Colors */
@@ -66,17 +70,22 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
 
 .homebannertext {
     font-family: montserratextra;
-    font-size: 600%;
+    font-size: 5rem;
 }
 
 .lead {
     font-family: montserratlight;
-    font-size: 125%;
+    font-size: 1rem;
 }
 
 strong {
     font-family: montserratbold;
-    font-size: 90%;
+    font-size: 1rem;
+}
+
+.regular {
+    font-family: montserratreg;
+    font-size: 1rem;
 }
 /* Background Colors */
 .bgdark {
@@ -103,22 +112,18 @@ strong {
     color: var(--coreSecondary);
     font-family: bubble2;
     font-weight: 100;
-    font-size: 60px;
-
+    font-size: 3rem;
 }
 
-/* Header Section */
-.background-container {
-    background-image: url(/assets/images/background/sqaures.png);
+.perthcity {
+    background-image: url(/assets/images/other/perth_city.jpg);
     background-size: cover;
-    background-position:top;
+    background-position:center;
     background-repeat: no-repeat;
-    min-height: 100vh; /* Full viewport height */
+    min-height: 20rem;
     display: flex;
-    align-items: center; /* Center content vertically */
-    justify-content: center; /* Center content horizontally */
-    color: white; /* Ensure text is readable over the image */
-    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .designteam {
@@ -126,7 +131,7 @@ strong {
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
-    min-height: 550px;
+    min-height: 20rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,7 +142,7 @@ strong {
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
-    min-height: 550px;
+    min-height: 20rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,7 +153,7 @@ strong {
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
-    min-height: 550px;
+    min-height: 15rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,7 +164,7 @@ strong {
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
-    min-height: 550px;
+    min-height: 15rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,7 +175,7 @@ strong {
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
-    min-height: 550px;
+    min-height: 15rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,15 +185,15 @@ strong {
     background-image: url(/assets/images/other/figs.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 200px;
+    min-height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .circle-container {
-    width: 100%;
-    height: 100%;
+    width: 30rem;
+    height: 30rem;
     background-color: var(--coreDark);
     border-radius: 50%;
     display: flex;
@@ -203,21 +208,9 @@ strong {
 
 .navbold-fortbubble {
     font-family: "montserratbold";
-    font-size: 36px;
+    font-size: 2rem;
     color:var(--coreDark);
     transition: transform 0.3s ease-in-out;
-}
-
-.dot {
-    font-family: montserratbold;
-    color: var(--coreSecondary);
-    font-size: 72px;
-}
-
-.dot2 {
-    font-family: montserratbold;
-    color: var(--coreSecondary);
-    font-size: 150px;
 }
 
 .navbold-fortbubble:hover {
@@ -232,11 +225,11 @@ strong {
 }
 
 .memberafgri {
-    width: 150px;
-    height: 150px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     overflow: hidden;
-    margin: 10px;
+    margin: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -247,11 +240,11 @@ strong {
 }
 
 .memberaswa {
-    width: 150px;
-    height: 150px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     overflow: hidden;
-    margin: 10px;
+    margin: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -262,11 +255,11 @@ strong {
 }
 
 .memberkc {
-    width: 150px;
-    height: 150px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     overflow: hidden;
-    margin: 10px;
+    margin: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -277,11 +270,11 @@ strong {
 }
 
 .memberlw {
-    width: 150px;
-    height: 150px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     overflow: hidden;
-    margin: 10px;
+    margin: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -292,11 +285,11 @@ strong {
 }
 
 .memberl123 {
-    width: 150px;
-    height: 150px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     overflow: hidden;
-    margin: 10px;
+    margin: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -307,11 +300,11 @@ strong {
 }
 
 .membermm {
-    width: 150px;
-    height: 150px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     overflow: hidden;
-    margin: 10px;
+    margin: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -323,6 +316,6 @@ strong {
 
 .gradient-divider {
     width: 100%;
-    height: 15px;
+    height: 1rem;
     background: linear-gradient(to right, #5539cc, #FF1493);
 }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 250 50">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #000;
+        font-size: 42.3px;
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #5539cc;
+        font-size: 60px;
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(9 41) scale(.9 1)"><tspan class="cls-2" x="0" y="0">fort bubble</tspan><tspan class="cls-3" x="237.1" y="0">.</tspan></text>
+</svg>
